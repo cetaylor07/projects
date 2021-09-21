@@ -1,0 +1,12 @@
+name: "Projects"
+output_dir: "docs"
+navbar:
+  title: "Projects"
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "Publish"
+      menu:
+
+output: distill::distill_article
+theme: main.css
